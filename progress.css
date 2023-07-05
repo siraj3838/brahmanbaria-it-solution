@@ -1,0 +1,19 @@
+.s-box{
+    width: 50%;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+#progress{
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+#progress:after{
+    content: '';
+    display: block;
+    background: var(--blue);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
